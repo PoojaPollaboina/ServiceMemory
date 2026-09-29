@@ -4,7 +4,7 @@ An AI-powered service intelligence platform that captures historical service exp
 
 ServiceMemory helps teams preserve operational knowledge by connecting incidents, affected assets, measurements, actions, and outcomes into a persistent service memory that can be retrieved when similar problems occur.
 
-🔗 Repository: "https://github.com/PalliGopi-GIT/ServiceMemory"
+🔗 Repository: "https://github.com/PoojaPollaboina/ServiceMemory"
 
 ---
 
