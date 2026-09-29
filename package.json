@@ -1,0 +1,35 @@
+{
+  "name": "servicememory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ServiceMemory - organizational memory for field service, powered by Hindsight",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "seed": "tsx --env-file=.env.local scripts/seed.ts",
+    "verify:hindsight": "tsx --env-file=.env.local scripts/verify-hindsight.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "@vectorize-io/hindsight-client": "latest",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
